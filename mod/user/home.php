@@ -11,7 +11,7 @@
 	   proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 	  </div>
 	  	<div  style='margin-top:15px;'>
-	  		<a class="btn" href='index.php?dir=mod/user&p=pengurusan' role="button" style="background-color:#00BF9A; color:#FFFFFF">Pilih Pengurusan</a> <a class="btn" href='index.php?dir=mod/user&p=histori_pengurusan' role="button" style="background-color:#00AA8D; color:#FFFFFF">Histori Pengurusan</a>
+	  		<a class="btn" href='index.php?dir=mod/user&p=pengurusan' role="button" style="background-color:#00BF9A; color:#FFFFFF">Pilih Pengurusan</a> <a class="btn" href='index.php?dir=mod/user&p=histori_pengurusan' role="button" style="background-color:#00AA8D; color:#FFFFFF">Laporan Berkas Pengurusan</a>
 
 	  	</div>
 	</div>

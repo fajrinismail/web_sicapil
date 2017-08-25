@@ -1,7 +1,7 @@
 <div class="container" id="load_bodi" style="margin-top:30px; padding:20px;">
   	<div class="row" style="margin-bottom:10px;">
 	    <div class="col-md-12 col-xs-12" style="padding-left:7px;">
-	        <h3 style="margin:0px;">Histori Pengurusan</h3>
+	        <h3 style="margin:0px;">Laporan Pengurusan Berkas</h3>
 	    </div>
 	</div>	
 
@@ -45,15 +45,15 @@
                               
                                 $status = $data_verifi['status_verifikasi'];
                                 if($status == ""){
-                                	$tampil_status = "<span class='label label-warning' style='padding:5px; border-radius:5px;'>On Process</span>";
+                                	$tampil_status = "<span class='label label-warning' style='padding:5px; border-radius:5px;'>Pending</span>";
                                 }else if($status == "1"){
-                                	$tampil_status = "<span class='label label-info' style='padding:5px; border-radius:5px;'>Process</span>";
+                                	$tampil_status = "<span class='label label-info' style='padding:5px; border-radius:5px;'>Proses</span>";
                                 }else if($status == "2"){
-                                	$tampil_status = "<span class='label label-success' style='padding:5px; border-radius:5px;'>Selesai diproses</span>";
+                                	$tampil_status = "<span class='label label-success' style='padding:5px; border-radius:5px;'>Selesai</span>";
                                 }else if($status == "3"){
                                 	$tampil_status = "<span class='label label-danger' style='padding:5px; border-radius:5px;'>Ditolak</span>";
                                 }else if($status == "4"){
-                                    $tampil_status = "<span class='label label-success' style='padding:5px; border-radius:5px;'>Selesai</span>";
+                                    $tampil_status = "<span class='label label-success' style='padding:5px; border-radius:5px;'>Diterima</span>";
                                 }
                                 echo "<tr>
                                         <td>$no</td>
